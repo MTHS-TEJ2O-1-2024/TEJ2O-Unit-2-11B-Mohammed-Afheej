@@ -12,6 +12,9 @@ let randomNumber2: number = 0
 // clearing screen and showing happy face
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
+// generating 2 random numbers
+randomNumber1 = randint(0,99)
+randomNumber2 = randint(0,99)
 
 // when button a is pressed
 input.onButtonPressed(Button.A, function () {
