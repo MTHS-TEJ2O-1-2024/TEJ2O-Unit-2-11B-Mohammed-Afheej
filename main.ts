@@ -1,8 +1,8 @@
 /* Copyright (c) 2020 MTHS All rights reserved
- *
- * Created by: Mohammed Afheej
- * Created on: Oct 2024
- * This program shows a random number from 0 to 99
+*
+* Created by: Mohammed Afheej
+* Created on: Oct 2024
+* This program shows random number between 0-99
 */
 
 // defining randomNumber
@@ -12,15 +12,12 @@ let randomNumber2: number = 0
 // clearing screen and showing happy face
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
-// generating 2 random numbers
-randomNumber1 = randint(0,99)
-randomNumber2 = randint(0,99)
 
 // when button a is pressed
 input.onButtonPressed(Button.A, function () {
     randomNumber1 = randint(0, 99)
     basic.clearScreen()
-    basic.showString('#1: ' + randomNumber1)
+    basic.showString('#1' + randomNumber1)
 
     // clear screen and show happy face
     basic.clearScreen()
@@ -31,7 +28,7 @@ input.onButtonPressed(Button.A, function () {
 input.onButtonPressed(Button.B, function () {
     randomNumber2 = randint(0, 99)
     basic.clearScreen()
-    basic.showString('#2: ' + randomNumber2)
+    basic.showString('#2' + randomNumber2)
 
     // clear screen and show happy face
     basic.clearScreen()
