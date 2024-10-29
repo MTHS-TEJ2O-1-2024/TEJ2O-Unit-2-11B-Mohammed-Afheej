@@ -42,9 +42,7 @@ input.onGesture(Gesture.Shake, function () {
     // if randomNumber1 < randomNumber2
     if (randomNumber1 < randomNumber2) {
         basic.showString(randomNumber1 + "<" + randomNumber2)
-    }
-    // if randomNumber1 > randomNumber2
-    else {
+    } else {
         basic.showString(randomNumber1 + ">" + randomNumber2)
     }
 
